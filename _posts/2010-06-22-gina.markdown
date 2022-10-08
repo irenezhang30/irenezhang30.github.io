@@ -2,7 +2,7 @@
 layout: post
 title:  "Centralized Model and Exploration Policy for Multi-Agent RL"
 date:   2022-04-01 00:00:00 +00:00
-image: /images/marco.PNG
+image: /images/marco.gif
 venue: <em>International Conference on Autonomous Agents and Multiagent Systems (AAMAS)</em>. Full paper, Oral Presentation
 categories: research
 authors: "<strong>Qizhen Zhang</strong>, Chris Lu, Animesh Garg, Jakob Foerster"
