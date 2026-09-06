@@ -1,9 +1,104 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="refresh" content="0; url=https://irenezhang30.notion.site/e78d9b993fc5409c82df4a0001316409" />
-</head>
-<body>
-    <p>If you are not redirected automatically, follow this <a href="https://irenezhang30.notion.site/e78d9b993fc5409c82df4a0001316409">link to my new site</a>.</p>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7f5ef" />
+    <meta name="description" content="Qizhen (Irene) Zhang — PhD student at the University of Oxford researching large language models." />
+    <meta property="og:title" content="Qizhen (Irene) Zhang" />
+    <meta property="og:description" content="Large language models, pretraining, and multi-agent reinforcement learning." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Qizhen (Irene) Zhang" />
+    <meta name="twitter:description" content="Large language models, pretraining, and multi-agent reinforcement learning." />
+    <title>Qizhen Zhang (Irene)</title>
+    <script>
+      (() => {
+        const palette = new URLSearchParams(location.search).get("palette");
+        if (["oxford", "forest", "plum", "graphite"].includes(palette)) {
+          document.documentElement.dataset.palette = palette;
+        }
+      })();
+    </script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav aria-label="Primary navigation">
+        <a href="#research">Research</a>
+        <a href="#experience">Experience</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="intro" aria-labelledby="page-title">
+        <div class="portrait-wrap">
+          <img src="portrait-v3.png" alt="Qizhen (Irene) Zhang" width="1254" height="1254" />
+        </div>
+        <div class="intro-copy">
+          <h1 id="page-title">Qizhen Zhang <em>(Irene)</em></h1>
+          <p class="lead">I am a PhD student at the University of Oxford, interested in large language model research across all stages of training. Previously, I interned as a research scientist in Meta’s core Llama team and FAIR. Before my PhD, I worked full-time at Cohere doing research and building some of the first 100B+ parameter models ever in early 2022. I wrote my Master’s thesis on cooperative multi-agent reinforcement learning at the University of Toronto and the <a href="https://vectorinstitute.ai/" target="_blank" rel="noreferrer">Vector Institute</a>.</p>
+          <div class="profile-links" aria-label="External profiles">
+            <a href="https://scholar.google.com/citations?hl=en&user=RbjPWpEAAAAJ" target="_blank" rel="noreferrer">Google Scholar ↗</a>
+            <a href="mailto:qizhen.zhang@eng.ox.ac.uk">Email ↗</a>
+            <a href="https://x.com/IreneZhang30" target="_blank" rel="noreferrer">Twitter ↗</a>
+            <a href="https://www.linkedin.com/in/irenezhang30/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="research" aria-labelledby="research-title">
+        <header class="section-header">
+          <p>01</p>
+          <div><h2 id="research-title">Selected research</h2><p class="note">* indicates equal contribution or joint last authors</p></div>
+        </header>
+        <div class="topic">
+          <h3>Pretraining data &amp; training dynamics</h3>
+          <article class="publication">
+            <div class="pub-year">2026</div>
+            <div class="pub-main"><h4><a href="https://arxiv.org/abs/2602.02400" target="_blank" rel="noreferrer">An Empirical Study on Noisy Data and LLM Pretraining Loss Divergence</a></h4><p class="authors"><strong>Qizhen Zhang</strong>, Ankush Garg, Jakob Foerster, Niladri Chatterji*, Kshitiz Malik*, Mike Lewis*</p><p class="venue"> Under submission · DATA-FM @ ICLR 2026</p></div>
+            <div class="pub-links"><a href="https://arxiv.org/abs/2602.02400" target="_blank" rel="noreferrer">paper ↗</a></div>
+          </article>
+        </div>
+        <div class="topic">
+          <h3>Pretraining model surgery</h3>
+          <article class="publication">
+            <div class="pub-year">2025</div>
+            <div class="pub-main"><h4><a href="https://arxiv.org/abs/2502.00075" target="_blank" rel="noreferrer">BTS: Harmonizing Specialized Experts into a Generalist LLM</a></h4><p class="authors"><strong>Qizhen Zhang</strong>, Prajjwal Bhargava, Chloe Bi, Chris X. Cai, Jakob Foerster, Jeremy Fu, Punit Singh Koura, Ruan Silva, Sheng Shen, Emily Dinan*, Suchin Gururangan*, Mike Lewis*</p><p class="venue">EMNLP 2025 Main</p></div>
+            <div class="pub-links"><a href="https://arxiv.org/abs/2502.00075" target="_blank" rel="noreferrer">paper ↗</a><a href="https://x.com/IreneZhang30/status/1886793848371716122" target="_blank" rel="noreferrer">tweet ↗</a><a href="https://www.youtube.com/watch?v=gPY9ZIMJQT0" target="_blank" rel="noreferrer">talk ↗</a></div>
+          </article>
+          <article class="publication">
+            <div class="pub-year">2024</div>
+            <div class="pub-main"><h4><a href="https://arxiv.org/abs/2408.08274" target="_blank" rel="noreferrer">BAM: Simple and Efficient Parameter Upcycling for Mixture of Experts</a></h4><p class="authors"><strong>Qizhen Zhang</strong>, Nikolas Gritsch, Dwaraknath Gnaneshwar, Simon Guo, David Cairuz, Bharat Venkitesh, Jakob Foerster, Phil Blunsom, Sebastian Ruder, Ahmet Üstün*, Acyr Locatelli*</p><p class="venue">NeurIPS 2024 · Also at ES-FoMo and NGSM @ ICML 2024 (Spotlight Talk)</p></div>
+            <div class="pub-links"><a href="https://arxiv.org/abs/2408.08274" target="_blank" rel="noreferrer">paper ↗</a><a href="https://x.com/IreneZhang30/status/1826642424774754738" target="_blank" rel="noreferrer">tweet ↗</a><a href="https://icml.cc/virtual/2024/39086" target="_blank" rel="noreferrer">talk ↗</a></div>
+          </article>
+        </div>
+        <div class="topic">
+          <h3>Multi-agent reinforcement learning</h3>
+          <article class="publication">
+            <div class="pub-year">2024</div>
+            <div class="pub-main"><h4><a href="https://arxiv.org/abs/2402.05782" target="_blank" rel="noreferrer">Analysing the Sample Complexity of Opponent Shaping</a></h4><p class="authors">Kitty Fung*, <strong>Qizhen Zhang*</strong>, Chris Lu, Jia Wan, Timon Willi, Jakob Foerster</p><p class="venue">AAMAS 2024 (Oral)</p></div>
+            <div class="pub-links"><a href="https://arxiv.org/abs/2402.05782" target="_blank" rel="noreferrer">paper ↗</a></div>
+          </article>
+          <article class="publication">
+            <div class="pub-year">2022</div>
+            <div class="pub-main"><h4><a href="https://arxiv.org/abs/2107.06434" target="_blank" rel="noreferrer">Centralized Model and Exploration Policy for Multi-Agent RL</a></h4><p class="authors"><strong>Qizhen Zhang</strong>, Chris Lu, Animesh Garg, Jakob Foerster</p><p class="venue">AAMAS 2022 (Oral)</p></div>
+            <div class="pub-links"><a href="https://arxiv.org/abs/2107.06434" target="_blank" rel="noreferrer">paper ↗</a><a href="https://x.com/IreneZhang30/status/1524212033549668352" target="_blank" rel="noreferrer">tweet ↗</a><a href="https://youtu.be/kCwJ6wT_gRs" target="_blank" rel="noreferrer">talk ↗</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="experience" aria-labelledby="experience-title">
+        <header class="section-header"><p>02</p><div><h2 id="experience-title">Experience</h2></div></header>
+        <div class="roles">
+          <article class="role"><p class="role-years">2025</p><div><h3>Research Scientist Intern</h3><p><a href="https://ai.meta.com/" target="_blank" rel="noreferrer">Meta FAIR</a> · Menlo Park, USA</p><p class="role-note">Llama pretraining team / FAIR / MSL</p></div></article>
+          <article class="role"><p class="role-years">2024—2025</p><div><h3>Research Scientist Intern</h3><p><a href="https://ai.meta.com/" target="_blank" rel="noreferrer">Meta GenAI</a> · New York City, USA</p><p class="role-note">Llama post-training team</p></div></article>
+          <article class="role"><p class="role-years">2023—2024</p><div><h3>Research Scientist Intern <span>(Part-time)</span></h3><p><a href="https://cohere.com/" target="_blank" rel="noreferrer">Cohere</a> · London, United Kingdom</p><p class="role-note">Pretraining team</p></div></article>
+          <article class="role"><p class="role-years">2022</p><div><h3>Member of Technical Staff</h3><p><a href="https://cohere.com/" target="_blank" rel="noreferrer">Cohere</a> · Toronto, Canada</p><p class="role-note">Built LLM pretraining frameworks using JAX &amp; TPUs. Co-owned pretraining runs of O(100 Billion) parameters.</p></div></article>
+        </div>
+      </section>
+    </main>
+
+    <footer><p>Qizhen (Irene) Zhang</p><p><a href="#top">Back to top ↑</a></p></footer>
+  </body>
 </html>
